@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color:orange;
+}
+table {
+    border: 1px solid black;
+    border-spacing: 0px;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+}
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bolder;
+}
+th:nth-child(2) {
+    color: red;
+}
+th:nth-child(4) {
+    color: blue;
+}
+th {
+    height: 30px;
+}
+tfoot td {
+    height: 30px;
+}
